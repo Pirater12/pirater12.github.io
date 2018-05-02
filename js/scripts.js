@@ -37,6 +37,6 @@ $('#download').on('click', function() {
   if(console == 'n3ds')
      var filename = "soundhax-{0}-{1}.m4a".format(region, console_);
   else
-	 var filename = "soundhax-{0}-{1}-{2}.m4a".format(region, console_, firmware);
+	 var filename = "soundhax-{0}-{1}-{2}.m4a".format(region, console_, firmware_);
   window.location.href = base + filename;
 });
